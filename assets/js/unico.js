@@ -2,7 +2,7 @@ document.body.onload = function() {
 
     CodigoLibro();
 
-    alert("var_copiaCodigo " + var_copiaCodigo);
+    // alert("var_copiaCodigo " + var_copiaCodigo);
     document.getElementById('card-img-top_Detalle').src="./assets/img/" +  var_copiaCodigo + ".png";
 
     CargaResumen(var_copiaCodigo);
