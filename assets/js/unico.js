@@ -114,7 +114,7 @@ function extraerParametroUrl(nombreParametro){
 
 function cambiar(){
 
-     document.getElementById('card-img-top_Detalle').src="/assets/img/" +  var_copiaCodigo;
+     document.getElementById('card-img-top_Detalle').src="./assets/img/" +  var_copiaCodigo;
 }
 
 
