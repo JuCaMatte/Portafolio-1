@@ -111,10 +111,10 @@ function extraerParametroUrl(nombreParametro){
 }
 
 
-
+// 05_01 *** REVISAR document.getElementById('card-img-top_Detalle').src="./assets/img/" +  var_copiaCodigo;
 function cambiar(){
 
-     document.getElementById('card-img-top_Detalle').src="./assets/img/" +  var_copiaCodigo;
+     document.getElementById('card-img-top_Detalle').src="./assets/img/" +  var_copiaCodigo + ".png";
 }
 
 
