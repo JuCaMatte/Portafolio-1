@@ -1,6 +1,8 @@
 document.body.onload = function() {
 
     CodigoLibro();
+
+    alert("var_copiaCodigo " + var_copiaCodigo);
     document.getElementById('card-img-top_Detalle').src="./assets/img/" +  var_copiaCodigo + ".png";
 
     CargaResumen(var_copiaCodigo);
@@ -112,10 +114,12 @@ function extraerParametroUrl(nombreParametro){
 
 
 // 05_01 *** REVISAR document.getElementById('card-img-top_Detalle').src="./assets/img/" +  var_copiaCodigo;
-function cambiar(){
+
+//No llamo a la función 06_01
+/* function cambiar(){
 
      document.getElementById('card-img-top_Detalle').src="./assets/img/" +  var_copiaCodigo + ".png";
-}
+} */
 
 
 
